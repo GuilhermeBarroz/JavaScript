@@ -1,0 +1,48 @@
+@charset "utf-08";
+
+body{
+    font: normal 1.3em arial;
+}
+header{
+    margin: auto;
+    text-align: center;
+    width: 500px;
+}
+.calculadora{
+    margin: auto;
+    width: 500px;
+    height: 230px;
+    background-color: darkcyan;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+
+.input-group{
+    display: flex;
+    justify-content: space-around;
+}
+
+.input > input{
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.button > input{
+    background-color: rgb(230, 173, 173);
+    border: none;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+#res{
+    padding-top: 10px;
+    text-align: center;
+}
