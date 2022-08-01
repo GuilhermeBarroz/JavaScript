@@ -1,0 +1,32 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Estrangeiro ou não?</h1>
+    <label for="país">
+        Digite de qual país você é para descobrir se é estrangeiro ou não. <input type="text" name="país" id="país" class="check">
+        <input type="button" value="Verificar" onclick="nacionalidade()">
+    </label>
+    <div id="res">
+
+    </div>
+    <script>
+        function nacionalidade (){
+            var pais = window.document.getElementById('país')
+            var res = window.document.getElementById('res')
+            if( pais.value.toLowerCase() == nacionalidade ){ 
+                res.innerHTML = (`Você nasceu no país ${pais.value} por isso é Brasileiro`)
+            }else{
+                res.innerHTML = (`Você nasceu no país ${pais.value} por isso é estrangeiro`)
+            }
+        }
+
+
+    </script>
+
+</body>
+</html>
