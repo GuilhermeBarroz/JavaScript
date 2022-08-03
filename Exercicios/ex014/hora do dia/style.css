@@ -1,0 +1,39 @@
+@charset "utf-08";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(255, 99, 71, 0.55);
+    font: normal 15pt arial;
+}
+
+header{
+    text-align: center;
+    color: white;
+    padding: 30px 0px 30px 0;
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 34rem;
+    margin: auto;
+    height: 250px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.307);
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+    color: white;
+    padding: 30px 0px 30px 0;
+}
+
+#msg, #foto{
+    text-align: center;
+    padding-top: 20px;
+}

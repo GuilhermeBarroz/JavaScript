@@ -1,0 +1,51 @@
+@charset "utf-08";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+    background-color: brown;
+    font: normal 14pt arial;
+}
+
+header{
+    margin: auto;
+    color: white;
+    padding-bottom: 2em;
+}
+
+main{
+    margin: auto;
+    background-color: white;
+    width: 500px;
+    max-height: 350px;
+    border-radius: 10px;
+}
+
+.input-group {
+    padding: 1em;
+}
+
+.input{
+    padding-top: 0.7em;
+}
+
+#buttom{
+    padding-top: 1em;
+}
+
+#text{
+    padding: 0em 0em 1em 1em;
+}
+
+footer{
+    margin: auto;
+    color: white;
+    padding: 1em;
+}
