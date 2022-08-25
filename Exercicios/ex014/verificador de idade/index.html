@@ -8,26 +8,28 @@
 </head>
 <body>
     <header>
-        <h1>Virificador de idade</h1>
+        <h1>Verificador de idade</h1>
     </header>
     <main>
         <div class="input-group">
             <div class="input">
                 <label for="nascimento">
-                    Ano de nascimento: <input type="number" name="nascimento" id="nascimento">
+                    Ano de nascimento: <input type="number" name="anonasc" id="anonasc">
                 </label>
             </div>
             <div class="input">
-                <label for="sexo">
-                    Sexo: <input type="radio" name="masc" id="masc"> Masculino
-                          <input type="radio" name="fem" id="fem"> Feminino
-                </label>
+                    <p>Sexo:
+                        <input type="radio" name="radsex" id="masc" checked>
+                        <label for="masc">Masculino</label>
+                        <input type="radio" name="radsex" id="fem">
+                        <label for="fem">Feminino</label>
+                    </p>
             </div>
             <div id="buttom">
-                <input type="button" value="Verificar" onclick="">
+                <input type="button" value="Verificar" onclick="verificar()">
             </div>
         </div>
-        <div id="text">
+        <div id="res">
             <p>Preencha os dados acima para ver o resuldado!</p>
         </div>
     </main>
